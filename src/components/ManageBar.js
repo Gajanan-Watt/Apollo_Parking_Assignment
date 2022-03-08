@@ -56,7 +56,7 @@ function ManageBar() {
         <div>
           <p>plate: {data?.occupied}</p>
           <p>time: {hours} hr/s</p>
-          <p>bill: {getBill(Math.ceil(hours))} pesos</p>
+          <p>bill: {getBill(Math.ceil(hours))} ₹</p>
         </div>
 
         <BiExit
