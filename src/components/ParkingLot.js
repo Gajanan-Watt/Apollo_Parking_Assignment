@@ -204,7 +204,7 @@ export default function ParkingLot() {
               }
               className={`${slot.occupied && "bg-green-300 cursor-pointer"} ${
                 editing && "cursor-move"
-              }  h-12 w-8 border-4 border-yellow-400 grid place-content-center absolute text-2xl`}
+              }  h-12 w-12 border-2 border-yellow-200 grid place-content-center absolute text-2xl`}
             >
               {slot.size?.charAt(0).toUpperCase()}
             </div>
