@@ -29,7 +29,7 @@ function ParkModal({ park, closeModal, car, setCar }) {
           onChange={(e) => handleChange(e, "size")}
           className="w-full text-center"
         >
-          {["BIKE", "CAR", "SUV"].map((size) => (
+          {["small", "medium", "large"].map((size) => (
             <option key={size} value={size}>
               {size}
             </option>
